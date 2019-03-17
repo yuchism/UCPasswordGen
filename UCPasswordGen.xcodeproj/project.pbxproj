@@ -13,7 +13,7 @@
 		113C70F6223E61180014606D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113C70F5223E61180014606D /* Assets.xcassets */; };
 		113C70F9223E61180014606D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113C70F7223E61180014606D /* LaunchScreen.storyboard */; };
 		113C7104223E61180014606D /* UCPasswordGenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113C7103223E61180014606D /* UCPasswordGenTests.swift */; };
-		113C710F223E647B0014606D /* UCpasswordGen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113C710E223E647B0014606D /* UCpasswordGen.swift */; };
+		113C710F223E647B0014606D /* UCPasswordGen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113C710E223E647B0014606D /* UCPasswordGen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 		113C70FF223E61180014606D /* UCPasswordGenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UCPasswordGenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		113C7103223E61180014606D /* UCPasswordGenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCPasswordGenTests.swift; sourceTree = "<group>"; };
 		113C7105223E61180014606D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		113C710E223E647B0014606D /* UCpasswordGen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCpasswordGen.swift; sourceTree = "<group>"; };
+		113C710E223E647B0014606D /* UCPasswordGen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCPasswordGen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 				113C70F5223E61180014606D /* Assets.xcassets */,
 				113C70F7223E61180014606D /* LaunchScreen.storyboard */,
 				113C70FA223E61180014606D /* Info.plist */,
-				113C710E223E647B0014606D /* UCpasswordGen.swift */,
+				113C710E223E647B0014606D /* UCPasswordGen.swift */,
 			);
 			path = UCPasswordGen;
 			sourceTree = "<group>";
@@ -201,7 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				113C70F1223E61160014606D /* ViewController.swift in Sources */,
-				113C710F223E647B0014606D /* UCpasswordGen.swift in Sources */,
+				113C710F223E647B0014606D /* UCPasswordGen.swift in Sources */,
 				113C70EF223E61160014606D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

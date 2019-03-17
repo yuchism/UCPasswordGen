@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		113C70EF223E61160014606D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113C70EE223E61160014606D /* AppDelegate.swift */; };
+		113C70F1223E61160014606D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113C70F0223E61160014606D /* ViewController.swift */; };
+		113C70F4223E61160014606D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113C70F2223E61160014606D /* Main.storyboard */; };
+		113C70F6223E61180014606D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113C70F5223E61180014606D /* Assets.xcassets */; };
+		113C70F9223E61180014606D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113C70F7223E61180014606D /* LaunchScreen.storyboard */; };
+		113C7104223E61180014606D /* UCPasswordGenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113C7103223E61180014606D /* UCPasswordGenTests.swift */; };
+		113C710F223E647B0014606D /* UCpasswordGen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113C710E223E647B0014606D /* UCpasswordGen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		113C7100223E61180014606D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 113C70E3223E61150014606D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 113C70EA223E61160014606D;
+			remoteInfo = UCPasswordGen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		113C70EB223E61160014606D /* UCPasswordGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UCPasswordGen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		113C70EE223E61160014606D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		113C70F0223E61160014606D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		113C70F3223E61160014606D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		113C70F5223E61180014606D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		113C70F8223E61180014606D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		113C70FA223E61180014606D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		113C70FF223E61180014606D /* UCPasswordGenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UCPasswordGenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		113C7103223E61180014606D /* UCPasswordGenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCPasswordGenTests.swift; sourceTree = "<group>"; };
+		113C7105223E61180014606D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		113C710E223E647B0014606D /* UCpasswordGen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCpasswordGen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		113C70E8223E61160014606D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113C70FC223E61180014606D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		113C70E2223E61150014606D = {
+			isa = PBXGroup;
+			children = (
+				113C70ED223E61160014606D /* UCPasswordGen */,
+				113C7102223E61180014606D /* UCPasswordGenTests */,
+				113C70EC223E61160014606D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		113C70EC223E61160014606D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				113C70EB223E61160014606D /* UCPasswordGen.app */,
+				113C70FF223E61180014606D /* UCPasswordGenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		113C70ED223E61160014606D /* UCPasswordGen */ = {
+			isa = PBXGroup;
+			children = (
+				113C70EE223E61160014606D /* AppDelegate.swift */,
+				113C70F0223E61160014606D /* ViewController.swift */,
+				113C70F2223E61160014606D /* Main.storyboard */,
+				113C70F5223E61180014606D /* Assets.xcassets */,
+				113C70F7223E61180014606D /* LaunchScreen.storyboard */,
+				113C70FA223E61180014606D /* Info.plist */,
+				113C710E223E647B0014606D /* UCpasswordGen.swift */,
+			);
+			path = UCPasswordGen;
+			sourceTree = "<group>";
+		};
+		113C7102223E61180014606D /* UCPasswordGenTests */ = {
+			isa = PBXGroup;
+			children = (
+				113C7103223E61180014606D /* UCPasswordGenTests.swift */,
+				113C7105223E61180014606D /* Info.plist */,
+			);
+			path = UCPasswordGenTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		113C70EA223E61160014606D /* UCPasswordGen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 113C7108223E61180014606D /* Build configuration list for PBXNativeTarget "UCPasswordGen" */;
+			buildPhases = (
+				113C70E7223E61160014606D /* Sources */,
+				113C70E8223E61160014606D /* Frameworks */,
+				113C70E9223E61160014606D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UCPasswordGen;
+			productName = UCPasswordGen;
+			productReference = 113C70EB223E61160014606D /* UCPasswordGen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		113C70FE223E61180014606D /* UCPasswordGenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 113C710B223E61180014606D /* Build configuration list for PBXNativeTarget "UCPasswordGenTests" */;
+			buildPhases = (
+				113C70FB223E61180014606D /* Sources */,
+				113C70FC223E61180014606D /* Frameworks */,
+				113C70FD223E61180014606D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				113C7101223E61180014606D /* PBXTargetDependency */,
+			);
+			name = UCPasswordGenTests;
+			productName = UCPasswordGenTests;
+			productReference = 113C70FF223E61180014606D /* UCPasswordGenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		113C70E3223E61150014606D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Yuch;
+				TargetAttributes = {
+					113C70EA223E61160014606D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					113C70FE223E61180014606D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 113C70EA223E61160014606D;
+					};
+				};
+			};
+			buildConfigurationList = 113C70E6223E61160014606D /* Build configuration list for PBXProject "UCPasswordGen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 113C70E2223E61150014606D;
+			productRefGroup = 113C70EC223E61160014606D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				113C70EA223E61160014606D /* UCPasswordGen */,
+				113C70FE223E61180014606D /* UCPasswordGenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		113C70E9223E61160014606D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113C70F9223E61180014606D /* LaunchScreen.storyboard in Resources */,
+				113C70F6223E61180014606D /* Assets.xcassets in Resources */,
+				113C70F4223E61160014606D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113C70FD223E61180014606D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		113C70E7223E61160014606D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113C70F1223E61160014606D /* ViewController.swift in Sources */,
+				113C710F223E647B0014606D /* UCpasswordGen.swift in Sources */,
+				113C70EF223E61160014606D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113C70FB223E61180014606D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113C7104223E61180014606D /* UCPasswordGenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		113C7101223E61180014606D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 113C70EA223E61160014606D /* UCPasswordGen */;
+			targetProxy = 113C7100223E61180014606D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		113C70F2223E61160014606D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				113C70F3223E61160014606D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		113C70F7223E61180014606D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				113C70F8223E61180014606D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		113C7106223E61180014606D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		113C7107223E61180014606D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		113C7109223E61180014606D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UCPasswordGen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.yuch.UCPasswordGen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		113C710A223E61180014606D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UCPasswordGen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.yuch.UCPasswordGen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		113C710C223E61180014606D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UCPasswordGenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.yuch.UCPasswordGenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UCPasswordGen.app/UCPasswordGen";
+			};
+			name = Debug;
+		};
+		113C710D223E61180014606D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UCPasswordGenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.yuch.UCPasswordGenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UCPasswordGen.app/UCPasswordGen";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		113C70E6223E61160014606D /* Build configuration list for PBXProject "UCPasswordGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113C7106223E61180014606D /* Debug */,
+				113C7107223E61180014606D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		113C7108223E61180014606D /* Build configuration list for PBXNativeTarget "UCPasswordGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113C7109223E61180014606D /* Debug */,
+				113C710A223E61180014606D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		113C710B223E61180014606D /* Build configuration list for PBXNativeTarget "UCPasswordGenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113C710C223E61180014606D /* Debug */,
+				113C710D223E61180014606D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 113C70E3223E61150014606D /* Project object */;
+}

@@ -1,6 +1,7 @@
 # UCPasswordGen
-Generate password
+Utility classs for generating a random password with various options.
 
+# How to use
 ```swift
 let pwdGen = UCPasswordGen()
 pwdGen.minimumLength = 10
